@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="chip-8.js"></script>
+    <script src="instruction-set.js"></script>
+    <script src="events.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="display" height="32" width="64"></canvas>
+    <p>Select ROM:</p>
+    <input type="file" onchange="onFileChange(event)" />
+  </body>
+</html>
